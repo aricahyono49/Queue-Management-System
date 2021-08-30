@@ -8,7 +8,7 @@ export const Beranda = () => {
         <div className="col-4">
           <SideNavigasi position="beranda"/>
         </div>
-        <div className="col-6">
+        <div className="col-8">
             components BERANDA taruh sini yah
         </div>
       </div>

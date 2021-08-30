@@ -8,7 +8,7 @@ export const DetailInfoAntrian = () => {
       <div className="col-4">
         <SideNavigasi position="daftar bank" />
       </div>
-      <div className="col-6">component DETAIL INFO ANTRIAN taruh sini yah</div>
+      <div className="col-8">component DETAIL INFO ANTRIAN taruh sini yah</div>
     </div>
   );
 };

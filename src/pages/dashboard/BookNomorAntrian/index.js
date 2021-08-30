@@ -8,7 +8,7 @@ export const BookNomorAntrian = () => {
       <div className="col-4">
         <SideNavigasi position="book nomor antrian" />
       </div>
-      <div className="col-6">components BOOK NOMOR ANTRIAN taruh sini yah</div>
+      <div className="col-8">components BOOK NOMOR ANTRIAN taruh sini yah</div>
     </div>
   );
 };
