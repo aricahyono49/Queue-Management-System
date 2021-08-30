@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+h1{
+    margin: 0;
+}
+
+li{
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 12px 0;
+    border-bottom: 2px solid #e7e7ed;
+}
+li h1{
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #00529c;
+    border-bottom: 0 solid #FFFFFF;
+}
+li h1 i {
+    color: #000000;
+}
