@@ -11,7 +11,7 @@ import { Login } from './pages/auth/Login';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="col-9 offset-2">
+    <div className="col-10 offset-1">
       <Login/>
       <Register/>
       <Beranda />

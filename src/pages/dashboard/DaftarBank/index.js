@@ -8,7 +8,7 @@ export const DaftarBank = () => {
       <div className="col-4">
         <SideNavigasi position="daftar bank" />
       </div>
-      <div className="col-6">component DAFTAR BANK taruh disini yah</div>
+      <div className="col-8">component DAFTAR BANK taruh disini yah</div>
     </div>
   );
 };
