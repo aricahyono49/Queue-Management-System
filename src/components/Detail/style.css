@@ -1,1 +1,24 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.rad {
+    border-radius: 12px;
+}
+
+.tb {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+>>>>>>> e91778c22d6b8fab60a0e25f6409509709472b28
