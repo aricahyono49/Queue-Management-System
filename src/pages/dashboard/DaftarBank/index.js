@@ -1,6 +1,7 @@
 import React from "react";
 import { SideNavigasi } from "../../../components/SideNavigasi";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { DaftarListBank } from "../../../components/DaftarBank";
 
 export const DaftarBank = () => {
   return (
@@ -8,7 +9,9 @@ export const DaftarBank = () => {
       <div className="col-4">
         <SideNavigasi position="daftar bank" />
       </div>
-      <div className="col-8">component DAFTAR BANK taruh disini yah</div>
+      <div className="col-8">
+        <DaftarListBank></DaftarListBank>
+      </div>
     </div>
   );
 };
