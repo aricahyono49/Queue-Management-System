@@ -1,6 +1,7 @@
 import React from "react";
 import { SideNavigasi } from "../../../components/SideNavigasi";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { DetailAntrian } from "../../../components/Detail";
 
 export const DetailInfoAntrian = () => {
   return (
@@ -8,7 +9,9 @@ export const DetailInfoAntrian = () => {
       <div className="col-4">
         <SideNavigasi position="daftar bank" />
       </div>
-      <div className="col-8">component DETAIL INFO ANTRIAN taruh sini yah</div>
+      <div className="col-8">
+        <DetailAntrian></DetailAntrian>
+      </div>
     </div>
   );
 };
