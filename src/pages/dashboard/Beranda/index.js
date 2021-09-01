@@ -1,5 +1,6 @@
 import React from 'react'
 import { SideNavigasi } from '../../../components/SideNavigasi'
+import Beranda2 from '../../../components/Beranda'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export const Beranda = () => {
@@ -9,7 +10,7 @@ export const Beranda = () => {
           <SideNavigasi position="beranda"/>
         </div>
         <div className="col-8">
-            components BERANDA taruh sini yah
+            <Beranda2 />
         </div>
       </div>
     );
