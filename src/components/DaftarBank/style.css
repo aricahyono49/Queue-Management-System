@@ -15,3 +15,8 @@ input[type=search] {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
+
+table{
+    font-size: 18px;
+}
+
