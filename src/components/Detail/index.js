@@ -1,12 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap-icons/font/bootstrap-icons.css";
-import './style.css';
-
-const {date} = new Date(); 
-console.log(date)
-=======
 import moment from 'moment'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -15,37 +7,10 @@ import 'moment/locale/id'
 moment.locale('id')
 
 const dateTime = new Date()
->>>>>>> e91778c22d6b8fab60a0e25f6409509709472b28
 
 export const DetailAntrian = () => {
     return (
         <div>
-<<<<<<< HEAD
-            <h2>Info Antrian Hari Ini ()</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">Bank</div>
-                    <div class="col-1">:</div>
-                    <div class="col">'Cabang'</div>
-                </div>
-                <div class="row">
-                    <div class="col-6">Alamat</div>
-                    <div class="col-1">:</div>
-                    <div class="col">'Alamat Bank'</div>
-                </div>
-                <div class="row">
-                    <div class="col-6">Nomor antrian yang sedang dilayani saat ini</div>
-                    <div class="col-1">:</div>
-                    <div class="col">'Nomor Antrian'</div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <button>Kembali</button>
-                    <button>Booking untuk besok</button>
-                </div>
-            </div>
-=======
             <div>
                 <h2>Info Antrian Hari Ini <span>({moment(dateTime).format('dddd, LL')})</span></h2>
                 <div class="container tb">
@@ -79,8 +44,6 @@ export const DetailAntrian = () => {
                     </button>
                 </div>
             </div>
-
->>>>>>> e91778c22d6b8fab60a0e25f6409509709472b28
         </div>
     )
 }
