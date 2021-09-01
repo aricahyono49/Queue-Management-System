@@ -1,6 +1,7 @@
 import React from "react";
 import { SideNavigasi } from "../../../components/SideNavigasi";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BookAntrian } from "../../../components/BookNomorAntrian";
 
 export const BookNomorAntrian = () => {
   return (
@@ -8,7 +9,9 @@ export const BookNomorAntrian = () => {
       <div className="col-4">
         <SideNavigasi position="book nomor antrian" />
       </div>
-      <div className="col-8">components BOOK NOMOR ANTRIAN taruh sini yah</div>
+      <div className="col-8">
+        <BookAntrian></BookAntrian>
+      </div>
     </div>
   );
 };
