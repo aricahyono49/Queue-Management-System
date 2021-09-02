@@ -44,7 +44,6 @@ export const DetailAntrian = () => {
                     </button>
                 </div>
             </div>
-
         </div>
     )
 }
